@@ -1,14 +1,28 @@
-# Ignore datasets
-data/
-
-
-# Ignore notebooks
-notebooks/
-
-# Ignore Python cache
+# Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# Ignore system files
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
 .DS_Store
 Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+
+# Do NOT ignore trained models
+# model/
+# notebooks/
