@@ -1,8 +1,6 @@
 # Ignore datasets
 data/
 
-# Ignore trained models
-model/
 
 # Ignore notebooks
 notebooks/
