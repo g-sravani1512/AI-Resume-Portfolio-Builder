@@ -1,0 +1,16 @@
+# Ignore datasets
+data/
+
+# Ignore trained models
+model/
+
+# Ignore notebooks
+notebooks/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore system files
+.DS_Store
+Thumbs.db
